@@ -1,16 +1,18 @@
-﻿<!DOCTYPE html>
-<html>
+<!DOCTYPE html>
+<html lang="es">
 <head>
-    <title>Angry Birds Forest Adventure</title>
-    <script src="ruffle_files/ruffle.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Angry Birds Forest</title>
+    <script src="ruffle.js"></script>
 </head>
-<body>
-    <div id="angry-birds-forest-adventure.swf" style="text-align: center;">
+<body style="margin: 0; background: #000; display: flex; justify-content: center; align-items: center; height: 100vh;">
+    <div id="game-container">
         <script>
             var ruffle = RufflePlayer.newest();
             var player = ruffle.createPlayer();
             document.getElementById("game-container").appendChild(player);
-            player.load("mi_juego.swf");
+            player.load("angry-birds-forest-adventure.swf");
         </script>
     </div>
 </body>
