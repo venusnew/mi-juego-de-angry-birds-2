@@ -1,0 +1,17 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Angry Birds Forest Adventure</title>
+    <script src="ruffle_files/ruffle.js"></script>
+</head>
+<body>
+    <div id="angry-birds-forest-adventure.swf" style="text-align: center;">
+        <script>
+            var ruffle = RufflePlayer.newest();
+            var player = ruffle.createPlayer();
+            document.getElementById("game-container").appendChild(player);
+            player.load("mi_juego.swf");
+        </script>
+    </div>
+</body>
+</html>
