@@ -3,7 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Angry Birds Forest</title>
+    <title>Angry Birds Forest Adventure</title>
+    <script>
+        // Configuración de la ruta pública para Ruffle
+        window.RufflePlayer = window.RufflePlayer || {};
+        window.RufflePlayer.config = {
+            publicPath: "./"
+        };
+    </script>
     <script src="ruffle.js"></script>
 </head>
 <body style="margin: 0; background: #000; display: flex; justify-content: center; align-items: center; height: 100vh;">
